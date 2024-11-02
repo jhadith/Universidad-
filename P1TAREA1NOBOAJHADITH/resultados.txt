@@ -1,0 +1,6 @@
+Nota 1: 0
+Nota 2: 1
+Nota 3: 3
+Promedio: 1.33333
+Resultado: Reprobado
+--------------------------
