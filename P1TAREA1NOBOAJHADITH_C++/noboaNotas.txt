@@ -1,0 +1,6 @@
+Nota 1: 12
+Nota 2: 12
+Nota 3: 12
+------------------------------
+Promedio: 12
+Resultado: Reprobado
