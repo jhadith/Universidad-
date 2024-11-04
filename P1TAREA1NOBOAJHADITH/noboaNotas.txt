@@ -1,6 +1,0 @@
-Nota 1: 12
-Nota 2: 16
-Nota 3: 19
-------------------------------
-Promedio: 15.6667
-Resultado: Aprobado
