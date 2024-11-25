@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="main.java.com.mycompany.p1taller1_noboa_uribee2">
+  <ClassDiagramComponents>
+    <Class name="Girasol" package="com.mycompany.p1taller1_noboa_uribee2" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="clima" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="clima"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="color"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getClima" returnType="String" visibility="public"/>
+        <Method name="setClima" returnType="void" visibility="public">
+          <Argument type="String" name="clima"/>
+        </Method>
+        <Method name="pedirDatos" returnType="void" visibility="public"/>
+        <Method name="salirDatos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Main" package="com.mycompany.p1taller1_noboa_uribee2" visibility="public" xPosition="70.0" yPosition="403.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Plantas" package="com.mycompany.p1taller1_noboa_uribee2" visibility="public" isAbstract="true" xPosition="307.0" yPosition="295.0">
+      <Fields>
+        <Field name="scanner" type="Scanner" visibility="package"/>
+        <Field name="nombre" type="String" visibility="public"/>
+        <Field name="color" type="String" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="color"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="pedirDatos" returnType="void" visibility="public"/>
+        <Method name="salirDatos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Tulipan" package="com.mycompany.p1taller1_noboa_uribee2" visibility="public" xPosition="519.0" yPosition="20.0">
+      <Fields>
+        <Field name="cuidado" type="String" visibility="private"/>
+        <Field name="scanner" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="cuidado"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="color"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCuidado" returnType="String" visibility="public"/>
+        <Method name="setCuidado" returnType="void" visibility="public">
+          <Argument type="String" name="cuidado"/>
+        </Method>
+        <Method name="pedirDatos" returnType="void" visibility="public"/>
+        <Method name="salirDatos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="com.mycompany.p1taller1_noboa_uribee2.Girasol" target="com.mycompany.p1taller1_noboa_uribee2.Plantas"/>
+    <IsRelation name="is" source="com.mycompany.p1taller1_noboa_uribee2.Tulipan" target="com.mycompany.p1taller1_noboa_uribee2.Plantas"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
